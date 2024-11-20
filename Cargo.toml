@@ -1,0 +1,8 @@
+[package]
+name = "bittorrent"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde_json = { version="*" }
+config = { version="0.14.0", features=["yaml"] }
