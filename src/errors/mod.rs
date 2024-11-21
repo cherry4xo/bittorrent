@@ -3,7 +3,7 @@ use std::error::Error;
 
 #[derive(Debug)]
 pub enum Errors {
-    InvalidArgument(String)
+    InvalidArgument(String),
 }
 
 impl fmt::Display for Errors {
